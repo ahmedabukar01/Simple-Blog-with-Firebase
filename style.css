@@ -98,7 +98,11 @@ form#create{
 .post p{
     margin: 40px 0;
 }
+.wrapper button.active{
+    display: inline-block;
+}
 .wrapper button{
+    display:none;
     background:crimson;
     color:#fff;
     border:none;

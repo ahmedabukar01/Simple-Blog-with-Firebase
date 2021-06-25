@@ -12,6 +12,8 @@ const getPost = async ()=>{
             <p>${post.body}</p>
         </div>
         `
+
+        delPost.classList.add('active');
      })
 }
 
