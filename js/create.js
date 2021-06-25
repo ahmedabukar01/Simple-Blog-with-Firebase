@@ -5,13 +5,15 @@ const createPost = async ()=>{
         body: form.body.value,
         likes: 0,
     }
-    db.collection('posts').add(data).then(()=>{
+    console.log('called')
+    await db.collection('posts').add(data).then(()=>{
         console.log('added');
     }).catch(err=>console.log(err));
 
     window.location.replace('/index.html')
 
 }
+
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     createPost();
