@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "How to install JSON server",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. sit amet consectetur adipisicing elit. Error, ad excepturi accusantium necessitatibus dolorum ex reprehenderit nam sunt mollitia quo minus unde suscipit totam vitae! Vero pariatur accusantium nobis nemo! Deleniti nam earum eveniet, ab vel inventore vero quae quod deserunt minima quia! Incidunt illo itaque distinctio sapiente magni Error, ad excepturi accusantium necessitatibus dolorum ex reprehenderit nam sunt mollitia quo minus unde suscipit totam vitae! Vero pariatur accusantium nobis nemo! Deleniti nam earum eveniet, ab vel inventore vero quae quod deserunt minima quia! Incidunt illo itaque distinctio sapiente magni molestias!",
+      "likes": 15
+    },
+    {
+      "id": 3,
+      "title": "How to use JSON Server",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ad excepturi accusantium necessitatibus dolorum ex reprehenderit nam sunt mollitia quo minus unde suscipit totam vitae! Vero pariatur accusantium nobis nemo! Deleniti nam earum eveniet, ab vel inventore vero quae quod deserunt minima quia! sit amet consectetur adipisicing elit. Error, ad excepturi accusantium necessitatibus dolorum ex reprehenderit nam sunt mollitia quo minus unde suscipit totam vitae! Vero pariatur accusantium nobis nemo! Deleniti nam earum eveniet, ab vel inventore vero quae quod deserunt minima quia! Incidunt illo itaque distinctio sapiente magni Incidunt illo itaque distinctio sapiente magni molestias!",
+      "likes": 40
+    },
+    {
+      "id": 4,
+      "title": "How to create Fake Rest API",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ad excepturi accusantium necessitatibus dolorum ex reprehenderit nam sunt mollitia quo minus unde suscipit totam vitae! Vero pariatur accusantium nobis nemo! sit amet consectetur adipisicing elit. Error, ad excepturi accusantium necessitatibus dolorum ex reprehenderit nam sunt mollitia quo minus unde suscipit totam vitae! Vero pariatur accusantium nobis nemo! Deleniti nam earum eveniet, ab vel inventore vero quae quod deserunt minima quia! Incidunt illo itaque distinctio sapiente magni Deleniti nam earum eveniet, ab vel inventore vero quae quod deserunt minima quia! Incidunt illo itaque distinctio sapiente magni molestias!",
+      "likes": 20
+    },
+    {
+      "title": "Designer & Developer and Javascript Developer",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis laborum exercitationem itaque beatae! Amet magnam ut quia culpa laboriosam consequuntur saepe tempora! Maiores iste incidunt enim laboriosam a at blanditiis quas eos assumenda? A, id? A quos quia magnam nobis commodi voluptas repudiandae neque explicabo enim officiis quibusdam provident alias nesciunt odit culpa corporis ad asperiores nisi quas, natus rerum ducimus dicta! Provident nam facere incidunt voluptates obcaecati iusto itaque doloremque? Eum quidem asperiores cumque fugiat totam iste ex quasi fuga ullam doloremque placeat pariatur, amet hic, minima nesciunt accusantium iusto quo accusamus quia exercitationem recusandae quae iure tempora! Rerum!",
+      "likes": 0,
+      "id": 5
+    }
+  ],
+  "polls": [
+    {
+      "id": 1,
+      "question": "which one is better vue or react js",
+      "Answer A": "react",
+      "Answer B": "vue"
+    }
+  ]
+}
