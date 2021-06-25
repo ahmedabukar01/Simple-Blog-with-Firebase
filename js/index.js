@@ -43,11 +43,11 @@ db.collection('posts').get().then(snapshot=>{
 const getPosts = (post,id)=>{
     const templete = `
     <div class="posts" data-id="${id}">
-    <h2>${post.title}</h2>
-    <small>${post.likes} likes</small>
-    <p>${post.body.slice(0,200)}</p>
-    <a href="/details.html?id=${id}">Read more</a>
- </div>
+        <h2>${post.title}</h2>
+        <small>${post.likes} likes</small>
+        <p>${post.body.slice(0,200)}</p>
+        <a href="/details.html?id=${id}">Read more</a>
+    </div>
     `;
 
     blogs.innerHTML += templete;
