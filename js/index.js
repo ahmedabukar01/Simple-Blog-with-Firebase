@@ -30,10 +30,11 @@ const showPost = (post,id)=>{
     blogs.innerHTML += templete;
 }
 
-// search
-searchForm.addEventListener('submit',(e)=>{
-    e.preventDefault();
-    const term = searchForm.term.value;
-    console.log(term)
-    renderPost(term)
-});
+// search will add later
+
+// searchForm.addEventListener('submit',(e)=>{
+//     e.preventDefault();
+//     const term = searchForm.term.value;
+//     console.log(term)
+//     renderPost(term)
+// });
