@@ -1,16 +1,18 @@
-
 const blogs = document.querySelector('.blogs');
 const searchForm = document.querySelector('#search');
 
 const renderPost = async (term) =>{
-     db.collection('posts').get().then(snapshot=>{
-            snapshot.docs.forEach(snap=>{
-            const id = snap.id;
-            let data = snap.data();
-            showPost(data,id);
-        })
-    })
-}
+  await db.collection('posts').onSnapshot(snapshot=>{
+      snapshot.docChanges().forEach(change=>{
+          const type =  change.type;
+          const id = change.doc.id;
+          if(type === 'added'){
+              showPost(change.doc.data(),id);
+          }
+      })
+      })
+  }
+
 
 window.addEventListener('DOMContentLoaded',(e)=>renderPost());
 

@@ -4,10 +4,12 @@
     padding:0;
     box-sizing: border-box;
 }
+html,
 body{
     background:#333;
     color:#fff;
     font-family: 'Poppins',sans-serif;
+    overflow-x:hidden;
 }
 
 header{
