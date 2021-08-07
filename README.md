@@ -1,2 +1,2 @@
 # Simple-Blog-with-Firebase
-firebase project
+firebase blog project
